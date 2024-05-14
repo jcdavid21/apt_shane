@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: math;
+}
+
+body{
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#navbar {
+    padding: 10px;
+    letter-spacing: 2px;
+    margin-left: 1100px;
+    margin-top: 60px;
+}
+
+#navbar ul{
+    text-align: center;
+}
+
+#navbar li{
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navbar li a{
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: maroon;
+}
+
+.user-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-info p {
+    margin-bottom: 10px;
+}
+
+.user-info strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.item img.login-logo {
+    /* margin-top: 100px; */
+    /* margin-left: 500px; */
+    height: 250px;
+    width: auto;
+}
+
+.item h1 {
+    /* margin-top: -80px; */
+    /* margin-left: 550px; */
+    color: maroon;
+}
+
+.item1 {
+    /* margin-top: -85px; */
+    /* margin-left: 560px; */
+}
+
+.login {
+    height: 100%;
+}
+
+.item1 h2 {
+    /* margin-top: -90px; */
+    /* margin-left: 500px; */
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.item1 h3 {
+    /* margin-top: -5px; */
+    /* margin-left: 550px; */
+    letter-spacing: 3px;
+    font-size: 23px;
+}
+
+.item1 img {
+    height: 200px;
+    width: auto;
+}
+
+.login .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+
+.login .row .col:first-child {
+    
+} 
+
+.login .row .logo-area {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.log_in {
+    width: 500px;
+    /* height: 600px+; */
+    margin: 0 auto;
+    /* margin-top: -600px; */
+    /* margin-left: 1100px; */
+    padding: 60px;
+    background-color: #DFC2BE;
+    color: black;
+    border-radius: 23px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.cred input[type="text"], .cred input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    background-color: #B17674;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+}
+
+.but a {
+    text-decoration: none;
+    top: 320px;
+}
+
+.cred input[type="text"]::placeholder {
+    color: black; 
+    font-size: 20px;
+}
+
+.cred input[type="password"]::placeholder {
+    color: black; 
+    font-size: 20px;
+}
+
+/* Style for the "Forgot Your Password?" link */
+.but a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.but a:hover {
+    color: black;
+}
+
+/* Style for the login button */
+.inputBox input[type="submit"] {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid transparent;
+    padding: 10px 40px;
+    color: white;
+    background-color: #780101;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.inputBox input[type="submit"]:hover {
+    background-color: #800000;
+}
+
+.log_in h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens up to 480px wide */
+    #navbar {
+        margin-top: 20px; /* Add margin to navbar */
+    }
+    #navbar li {
+        display: block; /* Change navbar items to stack vertically */
+        margin: 10px 0; /* Add space between stacked navbar items */
+    }
+}
